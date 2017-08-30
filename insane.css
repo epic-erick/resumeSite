@@ -36,7 +36,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  color: green;
+  color: #0D4F8B;
   /*colors tried
       698995
       778899
@@ -45,5 +45,13 @@ nav a:hover {
 }
 
 h1 {
-  color: green;
+  color: #eeeeee;
+}
+
+header {
+  
+}
+
+#highlight{
+  border-bottom: solid 5px #0D4F8B;
 }
