@@ -1,0 +1,49 @@
+body{
+  background-image: url(images/greyComp2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  background-attachment: fixed;
+}
+
+nav {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li{
+  float: right;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+nav a:link {
+  color: #eeeeee;
+}
+
+nav a:visited {
+  color: #eeeeee;
+
+}
+
+nav a:hover {
+  color: green;
+  /*colors tried
+      698995
+      778899
+      f5f5dc
+   */
+}
+
+h1 {
+  color: green;
+}
