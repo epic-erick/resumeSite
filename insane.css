@@ -1,4 +1,6 @@
 body{
+  overflow: hidden;
+  display: flex;
   background-image: url(images/greyComp2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +9,9 @@ body{
 }
 
 nav {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end; /* moves to the right */
+  /*text-align: right;*/
   font-weight: bold;
   font-size: 1.3em;
 }
@@ -44,14 +48,44 @@ nav a:hover {
    */
 }
 
+h1, h2, h3 {
+  display: flex;
+  color: #336699;
+  justify-content: center;
+}
+
 h1 {
-  color: #eeeeee;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  padding-top: 15%;
+  font-size: 2.5em;
+}
+
+h2 {
+
+}
+
+h3{
+  text-indent: 7em;
 }
 
 header {
-  
+
 }
 
+footer {
+  }
+
 #highlight{
-  border-bottom: solid 5px #0D4F8B;
+  /*border-bottom: solid 5px #0D4F8B;*/
+}
+
+#wrapper {
+  border: 5px solid #000000;
+  display: flex;
+  flex-direction: column;
+  height: 96vh; /* viewport height */
+  width: 100%;
+  align-items: stretch;
+
 }
