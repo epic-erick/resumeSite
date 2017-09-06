@@ -48,9 +48,10 @@ nav a:hover {
    */
 }
 
-h1, h2, h3 {
+header h1, header h2, header h3 {
   display: flex;
-  color: #336699;
+  color: #eeeeee;/*336699;*/
+  text-shadow: 2px 2px 5px #000000;
   justify-content: center;
 }
 
@@ -62,7 +63,9 @@ h1 {
 }
 
 h2 {
-
+  justify-content: flex-start;
+  margin-left: 1.2em;
+  margin-bottom: 1.2em;
 }
 
 h3{
@@ -71,6 +74,26 @@ h3{
 
 header {
 
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+img {
+  height: 150px;
+  width: 300px;
+  margin-left: 2.5em;
+}
+
+p {
+  font-weight: bold;
+  color: #eeeeee;/*336699;*/
+  text-shadow: 2px 2px 5px #000000;
+  margin-left: 1.2em;
 }
 
 footer {
@@ -88,4 +111,12 @@ footer {
   width: 100%;
   align-items: stretch;
 
+}
+
+/* Class start */
+
+.flexRow { /* Used to row out details in a column flex display */
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centers height */
 }
