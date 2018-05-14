@@ -80,13 +80,21 @@ main{
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
 
+span {
+  font-style: italic;
 }
 
 img {
   height: 150px;
   width: 300px;
   margin-left: 2.5em;
+}
+
+img {
+  height: 200px;
+  width: 280px;
 }
 
 p {
@@ -119,4 +127,20 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center; /* Centers height */
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+#wrapper{
+  height: auto;
+}
+
+body{
+  overflow: auto;
+}
+
+  .flexRow{
+    flex-direction: column;
+  }
 }
